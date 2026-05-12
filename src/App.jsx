@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import FeaturedItems from "./components/FeaturedItems";
 import HowItWorks from "./components/HowItWorks";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/common/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <FeaturedItems />
         <HowItWorks />
         <Testimonials />
+        <Footer />
       </main>
     </div>
   );
